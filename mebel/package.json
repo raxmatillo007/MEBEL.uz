@@ -1,19 +1,30 @@
 {
-  "name": "mebel",
-  "version": "0.0.0",
-  "private": true,
-  "type": "module",
+  "name": "mebel.uz",
+  "version": "1.0.0",
+  "description": "Vue 3 project for mebel.uz",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "serve": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raxmatillo007/MEBEL.uz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raxmatillo007/MEBEL.uz/issues"
+  },
+  "homepage": "https://github.com/raxmatillo007/MEBEL.uz#readme",
   "dependencies": {
-    "vue": "^3.5.13"
+    "vue": "^3.4.15",
+    "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.3",
-    "vite": "^6.2.4",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.2.0",
+    "vite-plugin-vue-devtools": "^7.7.6"
   }
 }
