@@ -1,24 +1,15 @@
 <template>
   <div id="app">
     <Header />
-    <router-view />
+    <RouterView />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Header from './components/Header.vue';
+import { RouterView } from 'vue-router';
 
 export default {
-  components: {
-    Header
-  }
-}
+  components: { Header, RouterView }
+};
 </script>
-
-<style>
-body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fafafa;
-}
-</style>

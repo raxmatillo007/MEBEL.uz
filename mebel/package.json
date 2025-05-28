@@ -1,30 +1,31 @@
 {
-  "name": "mebel.uz",
+  "name": "mebel",
   "version": "1.0.0",
-  "description": "Vue 3 project for mebel.uz",
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "vite.config.js",
+  "dependencies": {
+    "csstype": "^3.1.3",
+    "entities": "^4.5.0",
+    "esbuild": "^0.18.20",
+    "estree-walker": "^2.0.2",
+    "magic-string": "^0.30.17",
+    "nanoid": "^3.3.11",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.5.3",
+    "rollup": "^3.29.5",
+    "source-map-js": "^1.2.1",
+    "vue": "^3.5.15"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^5.4.19"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raxmatillo007/MEBEL.uz.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/raxmatillo007/MEBEL.uz/issues"
-  },
-  "homepage": "https://github.com/raxmatillo007/MEBEL.uz#readme",
-  "dependencies": {
-    "vue": "^3.4.15",
-    "vue-router": "^4.5.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.4",
-    "vite": "^5.2.0",
-    "vite-plugin-vue-devtools": "^7.7.6"
-  }
+  "type": "commonjs"
 }
