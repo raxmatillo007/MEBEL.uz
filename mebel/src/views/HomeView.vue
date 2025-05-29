@@ -1,6 +1,6 @@
 <template>
   <div class="home-container">
-    
+  
 
     <main class="home-content">
       <HeroBanner />
